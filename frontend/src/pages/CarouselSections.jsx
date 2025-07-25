@@ -2,6 +2,8 @@ import React from 'react';
 import img_1 from '../assets/SOLAR-STREET-LIGHT.jpg';
 import img_2 from '../assets/SOLAR-PUMP.jpg';
 import img_3 from '../assets/SOLAR-CHAKKI.png';
+import New_img from '../assets/New_img_2.jpg';
+import new_img_2 from '../assets/New_img_2.jpg';
 
 
 function CarouselSections() {
@@ -19,14 +21,14 @@ function CarouselSections() {
                 </div>
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                        <img src={img_1} className="d-block w-100" alt="..." style={{ height: '500px', objectFit: 'cover' }} />
+                        <img src={img_2} className="d-block w-100" alt="..." style={{ height: '500px', objectFit: 'cover', position:'center' }} />
                         {/* <div className="carousel-caption d-none d-md-block" style={{ backgroundColor: 'rgba(0, 0, 0, 0.6)', padding: '10px', borderRadius: '5px' }}>
                             <h5>Premium Handmade & Machine-Made Rugs – Hand Tufted, Knotted & Shaggy Styles</h5>
                             <p>Discover a stunning collection of hand-tufted, hand-knotted, machine-made, and shaggy carpet rugs designed to enhance your living space.</p>
                         </div> */}
                     </div>
                     <div className="carousel-item">
-                        <img src={img_2} className="d-block w-100" alt="..." style={{ height: '500px', objectFit: 'cover' }} />
+                        <img src={new_img_2} className="d-block w-100" alt="..." style={{ height: '500px', objectFit: 'cover' }} />
                         {/* <div className="carousel-caption d-none d-md-block" style={{ backgroundColor: 'rgba(0, 0, 0, 0.6)', padding: '10px', borderRadius: '5px' }}>
                             <h5>Luxury Carpet Collection – Hand-Knotted, Shaggy, Durries & More</h5>
                             <p>Elevate your home décor with our exclusive range of carpets and rugs — including handcrafted durries, soft shaggy rugs, intricately knotted designs, and precision machine-made options. </p>

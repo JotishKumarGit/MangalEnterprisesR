@@ -1,10 +1,10 @@
 import React from 'react';
-import img_1 from '../assets/SOLAR-STREET-LIGHT.jpg';
-import img_2 from '../assets/SOLAR-PUMP.jpg';
-import img_3 from '../assets/SOLAR-CHAKKI.png';
-import New_img from '../assets/New_img_2.jpg';
+
+import new_img_3 from '../assets/t3.JPG';
 import new_img_2 from '../assets/New_img_2.jpg';
 import new_img_1 from '../assets/New_img_1.jpg';
+
+
 
 
 function CarouselSections() {
@@ -22,7 +22,7 @@ function CarouselSections() {
                 </div>
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                        <img src={new_img_1} className="d-block w-100" alt="..." style={{ height: '500px', objectFit: 'cover', position: 'center' }} />
+                        <img src={new_img_3} className="d-block w-100" alt="..." style={{ height: '500px', objectFit: 'cover', position: 'center' }} />
                         {/* <div className="carousel-caption d-none d-md-block" style={{ backgroundColor: 'rgba(0, 0, 0, 0.6)', padding: '10px', borderRadius: '5px' }}>
                             <h5>Premium Handmade & Machine-Made Rugs – Hand Tufted, Knotted & Shaggy Styles</h5>
                             <p>Discover a stunning collection of hand-tufted, hand-knotted, machine-made, and shaggy carpet rugs designed to enhance your living space.</p>
@@ -36,7 +36,7 @@ function CarouselSections() {
                         </div> */}
                     </div>
                     <div className="carousel-item">
-                        <img src={img_3} className="d-block w-100" alt="..." style={{ height: '500px', objectFit: 'cover' }} />
+                        <img src={img_1} className="d-block w-100" alt="..." style={{ height: '500px', objectFit: 'cover' }} />
                         {/* <div className="carousel-caption d-none d-md-block" style={{ backgroundColor: 'rgba(0, 0, 0, 0.6)', padding: '10px', borderRadius: '5px' }}>
                             <h5>Buy Hand Tufted & Machine Made Rugs Online – Traditional & Modern Designs</h5>
                             <p>Whether you prefer the charm of hand-knotted rugs, the softness of shaggy carpets, or the convenience of machine-made designs, our versatile rug collection offers something for every style and budget.</p>
